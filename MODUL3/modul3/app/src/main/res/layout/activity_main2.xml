@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="396dp"
+        android:layout_height="338dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="60dp"
+        android:text="Laskar Pelangi menceritakan kisah anak-anak dari Desa Belitung yang dikategorikan sebagai anak-anak miskin di Belitung. Anak-anak tersebut tidak berhenti berusaha untuk memperbaiki masa depan mereka. Mereka merupakan siswa SD Muhammadiyah, SD tertua di desa Belitung. Di sekolah ini terdiri dari 10 siswa, hingga tak lepas dari ancaman penutupan. Kesembilan siswa tersebut adalah Ikal, Lintang, Mahar, A Kiong, Syahdan, Borek, Sahara, Kucai, Trepani, dan Harun. Ibu Muslimah, satu-satunya guru di SD Muhammadiyah yang diperankan oleh Cut Mini, dan Pak Harfan, kepala sekolah SD Muhammadiyah yang diperankan oleh Ikranagara, terus berupaya untuk mempertahankan SD Muhammadiyah agar tidak tutup. Semula siswa di SD Muhammadiyah hanya berjumlah 9 siswa, kemudian datanglah Harun, anak keterbelakangan mental yang menyelamatkan sekolah di saat semua murid dan guru sudah gelisah dan khawatir sekolah akan ditutup. Setelah murid genap 10 siswa, sekolah dengan bangunan seadanya tersebut tetap diizinkan untuk beraktivitas seperti sekolah pada umumnya."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/laskar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="289dp"
+        android:text="Sinopsis :"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
