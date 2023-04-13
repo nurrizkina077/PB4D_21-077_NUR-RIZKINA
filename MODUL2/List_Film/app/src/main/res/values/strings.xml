@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">List Film</string>
+    <string name="nama_film">Nama Film</string>
+    <string name="deskripsi">Deskripsi</string>
+</resources>
