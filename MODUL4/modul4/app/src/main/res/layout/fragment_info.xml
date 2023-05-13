@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info"
+    android:background="#FFDEAD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginTop="20dp"
+            android:text="INFORMASI FILM" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bioskop" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Nama" />
+
+        <TextView
+            android:id="@+id/textnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="Nama" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="30dp"
+            android:drawableStart="@drawable/ic_baseline_movie_24"
+            android:drawablePadding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Judul Film" />
+
+        <TextView
+            android:id="@+id/textjudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="Judul Film" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="30dp"
+            android:drawableStart="@drawable/ic_calender"
+            android:drawablePadding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Hari " />
+
+        <TextView
+            android:id="@+id/texthari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="Hari" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:text="KEMBALI" />
+
+    </LinearLayout>
+</FrameLayout>

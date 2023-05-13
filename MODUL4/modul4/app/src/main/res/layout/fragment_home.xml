@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:background="#FFDEAD">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:layout_marginTop="20dp"
+                android:text="FILM" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/bioskop" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Silahkan isi data dibawah ini"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/inputnama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="28dp"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Masukkan Nama"/>
+
+            <EditText
+                android:id="@+id/inputjudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:drawableStart="@drawable/ic_baseline_movie_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Masukkan Judul" />
+
+            <EditText
+                android:id="@+id/inputhari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:drawableStart="@drawable/ic_calender"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Tentukan Hari" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:text="SUBMIT" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
